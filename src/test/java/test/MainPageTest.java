@@ -23,7 +23,7 @@ public class MainPageTest extends SetUpTests {
 
     @Test
     public void shouldGoToContactUsPage() {
-        assertThat(mainPage.clickOnContactUsButton().checkIsMessageIsDisplayed()).isTrue();
+        assertThat(mainPage.clickOnContactUsButton().checkIfMessageInputIsDisplayed()).isTrue();
     }
 
 }

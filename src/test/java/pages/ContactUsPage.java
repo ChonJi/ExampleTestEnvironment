@@ -13,7 +13,7 @@ public class ContactUsPage extends Page {
         super(driver);
     }
 
-    public boolean checkIsMessageIsDisplayed() {
+    public boolean checkIfMessageInputIsDisplayed() {
         return checkIfElementIsDisplayed(messageInput);
     }
 }
